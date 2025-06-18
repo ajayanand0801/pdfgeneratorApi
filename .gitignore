@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.local-chromium/Win64-901912/chrome-win
+/.vs/PDFApi
+/bin
+/obj
+/.config
