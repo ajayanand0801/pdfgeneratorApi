@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="PuppeteerSharp" Version="6.2.0" />
+    <PackageReference Include="Select.HtmlToPdf.NetCore" Version="25.2.0" />
+    <PackageReference Include="System.Text.Encodings.Web" Version="9.0.0" />
+	  
+  </ItemGroup>
+	<ItemGroup>
+		<Content Include=".local-chromium\**\*">
+			<CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+		</Content>
+	</ItemGroup>
+</Project>
